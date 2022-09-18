@@ -98,64 +98,64 @@ export function Edit({ history, match }) {
     }
 
     return (
-        <div className="card">
+         <div className="card">
             <div className="card-body">
                 <div className='row'>
                     <div className='col-6 d-flex justify-content-start'>
-                        <h4 className="card-title">Hesaplama Kaydı Güncelleme</h4>
+                        <h4 className="card-title">New Registry Calculation</h4>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-6">
                         <InputItem
                             ref={validationRefs["creaditname"]}
-                            itemname="Hesaplama Adı"
+                            itemname="Calculation Name"
                             itemid="creaditname"
                             itemvalue={currentdata.creaditname}
                             itemtype="text"
-                            itemplaceholder="Hesaplama Adı"
+                            itemplaceholder="Calculation Name"
                             itemchange={handleChange}
-                            errmsg={"Lütfen İsim Giriniz"}
+                            errmsg={"Please Enter Name"}
                             errshow={errorStates["creaditname"]}
                         />
                         <InputItem
                             ref={validationRefs["creditvalue"]}
-                            itemname="Kredi tutarı (Ana para)"
+                            itemname="Amount of Loan (Principal Amount)"
                             itemid="creditvalue"
                             itemvalue={currentdata.creditvalue}
                             itemtype="number"
-                            itemplaceholder="Kredi tutarı (Ana para) "
+                            itemplaceholder="Amount of Loan (Principal Amount) "
                             itemchange={handleChange}
-                            errmsg={"Kredi Tutarı 0 olamaz"}
+                            errmsg={"Amount of Loan cannot be 0."}
                             errshow={errorStates["creditvalue"]}
 
                         />
                         <InputItem
                             ref={validationRefs["profitrate"]}
-                            itemname="Kâr oranı"
+                            itemname="Earning Rate"
                             itemid="profitrate"
                             itemvalue={currentdata.profitrate}
                             itemtype="number"
-                            itemplaceholder="Kâr oranı"
+                            itemplaceholder="Earning Rate"
                             itemchange={handleChange}
-                            errmsg={"Kar Oranı 0 olamaz"}
+                            errmsg={"Earning Rate cannot be 0."}
                             errshow={errorStates["profitrate"]}
                         />
                     </div>
                     <div className="col-6">
                         <InputItem
                             ref={validationRefs["installments"]}
-                            itemname="Taksit sayısı"
+                            itemname="Installment"
                             itemid="installments"
                             itemvalue={currentdata.installments}
                             itemtype="number"
-                            itemplaceholder="Taksit sayısı"
+                            itemplaceholder="Installment"
                             itemchange={handleChange}
                             errshow={errorStates["installments"]}
-                            errmsg={"Taksit Tutarı 0 Olamaz"}
+                            errmsg={"Installment cannot be 0."}
                         />
                         <SelectItem
-                            itemname="Taksit aralığı seçimi"
+                            itemname="Installment Range"
                             itemvalue={selectedIntervaltype}
                             itemchange={(e) => { setselectedIntervaltype(e) }}
                             optionvalue={IntervalTypes}
@@ -169,7 +169,7 @@ export function Edit({ history, match }) {
                                     itemvalue={currentdata.kkdf}
                                     itemtype="number"
                                     itemplaceholder="KKDF %"
-                                    errmsg={"KKDF 0 olamaz"}
+                                    errmsg={"KKDF cannot be 0."}
                                     errshow={errorStates["kkdf"]}
                                     itemchange={handleChange}
                                 />
@@ -182,7 +182,7 @@ export function Edit({ history, match }) {
                                     itemvalue={currentdata.bsmv}
                                     itemtype="number"
                                     itemplaceholder="BSMV %"
-                                    errmsg={"BSMV 0 olamaz"}
+                                    errmsg={"BSMV cannot be 0."}
                                     errshow={errorStates["bsmv"]}
                                     itemchange={handleChange}
                                 />

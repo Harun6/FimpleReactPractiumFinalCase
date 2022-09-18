@@ -52,7 +52,7 @@ export function Detail({ history }) {
   return (
     <div>
       <div className='row d-flex mt-1 pr-5 justify-content-end align-items-right'>
-        <button onClick={goBack} style={{ minWidth: '150px' }} className="btn btn-dark mr-2">Geri Dön</button>
+        <button onClick={goBack} style={{ minWidth: '150px' }} className="btn btn-dark mr-2">Back</button>
       </div>
       <div className="row">
         <div className="col-12">
@@ -60,10 +60,10 @@ export function Detail({ history }) {
             <thead>
               <tr>
                 <th scope="col">ID</th>
-                <th scope="col">Taksit Tutarı</th>
-                <th scope="col">Ana Para</th>
-                <th scope="col">Kalan Ana Para</th>
-                <th scope="col">Kar Tutarı</th>
+                <th scope="col">Installment Amount</th>
+                <th scope="col">Principal</th>
+                <th scope="col">Remaining Principal</th>
+                <th scope="col">Earning Rate</th>
                 <th scope="col">KKDF</th>
                 <th scope="col">BSMV</th>
               </tr>

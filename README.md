@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Getting Started with FIMPLE REACT FINAL PRACTIUM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello everyone,
 
-## Available Scripts
+Welcome to Installment Calculation System
 
-In the project directory, you can run:
+This application allows you to learn in advance your planned repayments for prepared your loans.
 
-### `npm start`
+## User's manual
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+When the project is opened, you will be automatically redirected to the main tracking page. Your calculations on the project
+it saves your data until you close the application so you can compare it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In this way, you will be able to examine the details of multiple accounts.
 
-### `npm test`
+Users are required to save the following data to the system.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Data
 
-### `npm run build`
+### Credit Name : The field used to avoid mixing your plans in multiple transactions
+### Loan Amount: Main Loan Amount, Amount You Will Get from the Bank
+### Number of Installments: Number of repayments you will make
+### Profit rate: The interest to be determined by the bank
+### Installment interval : The field where you can select the payment as Monthly Annual Weekly
+### KKDF: Resource utilization support fund has been determined by the State as 15%.
+### BSMV : Banking and Insurance Transactions Tax is determined by the State as 10%.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Notes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add a record to the system with a New Calculation entry
+You can update your records with the Edit button.
+You can see your repayment plan by clicking Details on your records.

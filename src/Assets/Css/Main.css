@@ -1,0 +1,7 @@
+.AddNewBtn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-width: 120px;
+    height: 30px;
+}

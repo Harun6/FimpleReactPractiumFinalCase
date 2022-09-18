@@ -191,8 +191,8 @@ export function Edit({ history, match }) {
                     </div>
                 </div>
                 <div className='row d-flex mt-5 pr-5 justify-content-end align-items-right'>
-                    <button onClick={goBack} style={{ minWidth: '150px' }} className="btn btn-dark mr-2">Geri Dön</button>
-                    <button style={{ minWidth: '150px' }} onClick={handleUpdate} className="btn btn-primary mr-2">Güncelle</button>
+                    <button onClick={goBack} style={{ minWidth: '150px' }} className="btn btn-dark mr-2">Back</button>
+                    <button style={{ minWidth: '150px' }} onClick={handleUpdate} className="btn btn-primary mr-2">Update</button>
                 </div>
             </div>
         </div>

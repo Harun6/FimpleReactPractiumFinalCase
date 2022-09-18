@@ -30,10 +30,10 @@ export function Index(props) {
             <div className="card-body">
                 <div className='row'>
                     <div className='col-6 d-flex justify-content-start'>
-                        <h4 className="card-title">Kayıtlar</h4>
+                        <h4 className="card-title">Registers</h4>
                     </div>
                     <div className='col-6 d-flex justify-content-end align-items-center'>
-                        <button className="btn btn-secondary mr-2 AddNewBtn" onClick={HandleAddNew}>Yeni Hesaplama Girişi</button>
+                        <button className="btn btn-secondary mr-2 AddNewBtn" onClick={HandleAddNew}>New Calculation Entry</button>
                     </div>
                 </div>
                 <div className="row">
@@ -42,15 +42,15 @@ export function Index(props) {
                             <thead>
                                 <tr>
                                     <th scope="col">ID</th>
-                                    <th scope="col">Kredi Adı</th>
-                                    <th scope="col">Kredi Tutarı</th>
-                                    <th scope="col">Taksit sayısı</th>
-                                    <th scope="col">Kâr oranı</th>
-                                    <th scope="col">Taksit aralığı</th>
-                                    <th scope="col">KKDF Oranı</th>
-                                    <th scope="col">BSMV Oranı</th>
-                                    <th scope="col">Düzenle</th>
-                                    <th scope="col">Detay Görüntüle</th>
+                                    <th scope="col">Credit Name</th>
+                                    <th scope="col">Credit Amount</th>
+                                    <th scope="col">Installment</th>
+                                    <th scope="col">Earning Rate</th>
+                                    <th scope="col">Installment Range</th>
+                                    <th scope="col">KKDF Rate</th>
+                                    <th scope="col">BSMV Rate</th>
+                                    <th scope="col">Edit</th>
+                                    <th scope="col">View Detail</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -66,12 +66,12 @@ export function Index(props) {
                                         <td>{item.bsmv}</td>
                                         <td>
                                             <button id={item.id} type="button" onClick={HandleUpdateStatus} className="btn btn-primary" >
-                                                Düzenle
+                                                Edit
                                             </button>
                                         </td>
                                         <td>
                                             <button id={item.id} type="button" onClick={HandleDetail} className="btn btn-primary" >
-                                                Detay
+                                                Detail
                                             </button>
                                         </td>
                                     </tr>
